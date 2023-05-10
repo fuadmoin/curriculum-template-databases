@@ -1,3 +1,14 @@
+<a name="readme-top"></a>
+
+<div align="center">
+  
+  <img src="./img/logo2.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Vet Clinic</b></h3>
+
+</div>
+
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
@@ -18,9 +29,8 @@ This repository includes files with plain SQL that can be used to recreate a dat
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
+  - [Setup](#setup)
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
@@ -29,7 +39,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -87,7 +96,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+### Prerequisites <a name="prerequisites"></a>
 
 In order to run this project you need:
 
@@ -99,7 +108,7 @@ Version Control System (Git and Github)
 NodeJS (https://nodejs.org/en/)
 ```
 
-### Setup
+### Setup <a name="setup"></a>
 
 Clone this repository to your desired folder:
 
@@ -108,35 +117,21 @@ Clone this repository to your desired folder:
   git clone git@github.com:myaccount/my-project.git
 ```
 
-### Install
+### Usage <a name="usage"></a>
 
-Install this project with:
-
-```sh
-  cd my-project
-  npm install
-```
-
-### Usage
-
-To run the project, execute the following command:
+To duplicate the database used in this repository, use the following command in your SQL shell:
 
 ```
-  code .
-  npm start
+  CREATE DATABASE vet_clinic;
 ```
 
-### Run tests
+then use the queres in the [schema.sql](./schema.sql) file to create the tables and the [data.sql](./data.sql) file to populate the tables with data.
 
-To run tests, run the following command:
+### Run tests <a name="run-tests"></a>
 
-```sh
-npm test
-```
+To run tests, use the queres in the [queries.sql](./queries.sql) file to test the database.
 
-### Deployment
-
-You can deploy this project using:
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
 You can deploy this project using [Render](https://render.com/).
 
@@ -157,8 +152,6 @@ You can deploy this project using [Render](https://render.com/).
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[new_feature_1]**
 - [ ] **[new_feature_2]**
